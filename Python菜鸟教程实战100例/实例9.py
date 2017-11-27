@@ -1,4 +1,4 @@
-#！ /usr/bin/env python 3
+#!/usr/bin/env python 3
 # -*- coding: utf-8 -*-
 
 '暂停一秒输出'

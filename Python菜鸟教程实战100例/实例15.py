@@ -1,4 +1,4 @@
-#！ /usr/bin/env python 3
+#!/usr/bin/env python 3
 # -*- coding: utf-8 -*-
 
 '学习成绩>=90分的同学用A表示，60-89分之间的用B表示，60分以下的用C表示。'

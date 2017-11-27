@@ -1,4 +1,4 @@
-#！ /usr/bin/env python 3
+#!/usr/bin/env python 3
 # -*- coding: utf-8 -*-
 
 '输出 9*9 乘法口诀表'
