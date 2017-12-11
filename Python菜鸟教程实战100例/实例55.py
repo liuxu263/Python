@@ -12,6 +12,8 @@
 
 """
 
+__author__='lx'
+
 if __name__=='__main__':
     a=234
     b=~a
