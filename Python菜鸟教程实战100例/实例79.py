@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-# *-* coding：utf-8 *-*
+# -*- coding：utf-8 -*-
 
 '字符串排序。按首字母排序，如果相同就依次向后比较'
 

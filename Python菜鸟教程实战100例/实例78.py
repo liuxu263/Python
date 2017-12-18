@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-# *-* coding：utf-8 *-*
+# -*- coding：utf-8 -*-
 
 '找到年龄最大的人，并输出'
 
