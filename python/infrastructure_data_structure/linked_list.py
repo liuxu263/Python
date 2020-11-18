@@ -137,6 +137,7 @@ class SingleLinkedList(object):
         self.head = pre
 
 
+# todo
 # 合并两个有序链表
 # 合并两个无序链表
 # 删除链表的节点（根据value值，有重复）
