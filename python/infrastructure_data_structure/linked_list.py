@@ -110,6 +110,7 @@ class SingleLinkedList(object):
         if contain == 0:
             print("不在")
 
+    # 对指定index赋值
     def alter(self, index, num):
         currrent_node = self.head
         if index <= 0 or index > self.length:
@@ -119,6 +120,7 @@ class SingleLinkedList(object):
                 currrent_node = currrent_node.next
             currrent_node.element = num
 
+    # 反转链表
     def reverse(self):
         current_node = self.head
         if self.is_empty():
@@ -133,6 +135,13 @@ class SingleLinkedList(object):
             pre = current_node
             current_node = pnext
         self.head = pre
+
+
+# 合并两个有序链表
+# 合并两个无序链表
+# 删除链表的节点（根据value值，有重复）
+# 删除链表的节点（根据value值，无重复）
+# 删除链表的节点（根据index值）
 
 
 if __name__ == "__main__":
