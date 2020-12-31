@@ -1,9 +1,7 @@
-#! /usr/local/bin/python3
+#!
 # -*- coding：utf-8 -*-
-
-''
-
-__atuhor__ = 'lx'
+# single_linked_list
+__author__ = 'lx'
 
 
 class Node(object):
@@ -19,7 +17,7 @@ class SingleLinkedList(object):
 
     # 判断是否为空
     def is_empty(self):
-        if self.head == None:
+        if self.head is None:
             return True
         else:
             return False
