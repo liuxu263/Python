@@ -141,6 +141,7 @@ class SingleLinkedList(object):
 # 删除链表的节点（根据value值，有重复）
 # 删除链表的节点（根据value值，无重复）
 # 删除链表的节点（根据index值）
+# 链表奇偶排序
 
 
 if __name__ == "__main__":
