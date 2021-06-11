@@ -5,4 +5,6 @@
 
 __author__ = 'lx'
 
-print('hello world')
+print("hello world")
+
+print("""hello world %s""" % ("lx"))

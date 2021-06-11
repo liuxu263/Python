@@ -1,12 +1,14 @@
 #!
 # -*- coding=utf-8 -*-
 
-""" """
+"""
+class
+"""
 
 __author__ = ''
 
 
-class Test:
+class Test(object):
     i = 1
 
     def __init__(self, name):
@@ -20,7 +22,7 @@ class Study(Test):
     j = 2
 
     def __init__(self, name):
-        Test.__init__(self, name)
+        super().__init__(name)
 
     def return_name(self):
         return self.name
