@@ -1,39 +1,21 @@
 #!
-# -*- coding=utf-8 -*-
+# -*- coding = utf-8 -*-
 
-"""
-class
-"""
+""" """
 
-__author__ = ''
+__author__ = 'lx'
 
 
-class Test(object):
-    i = 1
+class Student(object):
 
-    def __init__(self, name):
+    def __init__(self, name, age):
         self.name = name
+        self.age = age
 
-    def get_name(self):
-        return self.name
-
-
-class Study(Test):
-    j = 2
-
-    def __init__(self, name):
-        super().__init__(name)
-
-    def return_name(self):
-        return self.name
+    def study(self, course_name):
+        print(f'{self.name}正在学习{course_name}')
 
 
 if __name__ == "__main__":
-    t = Test("lx")
-    print(t.i)
-    print(t.get_name())
-    s = Study("kobe")
-    print(s.i)
-    print(s.j)
-    print(s.get_name())
-    print(s.return_name())
+    s = Student("lx", "18")
+    s.study("Python")

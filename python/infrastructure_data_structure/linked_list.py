@@ -1,6 +1,8 @@
 #!
-# -*- coding：utf-8 -*-
-# single_linked_list
+# -*- coding = utf-8 -*-
+
+""" """
+
 __author__ = 'lx'
 
 
@@ -34,7 +36,7 @@ class SingleLinkedList(object):
         if self.is_empty():
             self.add(node)
         else:
-            while (current_node.next != None):
+            while current_node.next:
                 current_node = current_node.next
             current_node.next = node
             self.length += 1
@@ -110,13 +112,13 @@ class SingleLinkedList(object):
 
     # 对指定index赋值
     def alter(self, index, num):
-        currrent_node = self.head
+        current_node = self.head
         if index <= 0 or index > self.length:
             print("error")
         else:
             for i in range(index - 1):
-                currrent_node = currrent_node.next
-            currrent_node.element = num
+                current_node = current_node.next
+            current_node.element = num
 
     # 反转链表
     def reverse(self):
@@ -126,7 +128,6 @@ class SingleLinkedList(object):
         if self.length == 1:
             return self
         pre = None
-        pnext = None
         while current_node is not None:
             pnext = current_node.next
             current_node.next = pre

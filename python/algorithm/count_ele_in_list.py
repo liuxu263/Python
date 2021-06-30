@@ -1,5 +1,9 @@
-#! /user/bin/env python
-# -*- coding: utf-8 -*-
+#!
+# -*- coding = utf-8 -*-
+
+""" """
+
+__author__ = 'lx'
 
 
 def count_ele_in_list(arr):

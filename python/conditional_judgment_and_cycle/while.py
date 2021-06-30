@@ -1,9 +1,9 @@
 #!
 # -*- coding = utf-8 -*-
 
-''
+""" """
 
-__author__ = ''
+__author__ = 'lx'
 
 # while
 # else

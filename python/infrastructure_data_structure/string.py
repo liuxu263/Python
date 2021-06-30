@@ -1,12 +1,13 @@
 #!
-# -*- coding=utf-8 -*-
+# -*- coding = utf-8 -*-
 
-''
+""" """
 
-__author__ = "lx"
+__author__ = 'lx'
 
 var1 = "hello world!"
 var2 = 'a'
+
 
 # 转义字符 \
 
@@ -14,8 +15,10 @@ var2 = 'a'
 
 # +
 # *
+
 # []
 # [:]
+
 # in
 # not in
 # r/R
@@ -27,3 +30,12 @@ var2 = 'a'
 # unicode 字符串
 
 # 字符串内建函数
+
+def func1(a, b):
+    print(f'{a}*{b}={a * b}')
+
+
+if __name__ == '__main__':
+    x = 1
+    y = 2
+    func1(x, y)

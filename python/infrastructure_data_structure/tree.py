@@ -1,9 +1,10 @@
-#! /usr/local/bin/python3
-# -*- coding：utf-8 -*-
+#!
+# -*- coding = utf-8 -*-
 
-'test python'
+""" """
 
-__atuhor__ = 'lx'
+__author__ = 'lx'
+
 
 
 class BinaryTree(object):
